@@ -1,6 +1,6 @@
 <template>
-  <div class="about">
-    <h1>ABOUT {{$route.params.user}}</h1>
+  <div>
+    <h1>HELLO</h1>
     <p v-for="(m, i) in messages" :key="i">
       {{ m }}
     </p>
@@ -11,8 +11,8 @@ export default {
   data() {
     return {
       messages: [
-        'Hello, we are students at BZZ',
-        'We are currently in the third year of our apprenticeship'
+        'Welcome to my site!',
+        'This will be my last IT-Project'
       ]
     }
   }

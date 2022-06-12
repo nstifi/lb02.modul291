@@ -1,6 +1,6 @@
 <template>
-  <div>
-    <h1>HOME</h1>
+  <div class="about">
+    <h1>ABOUT US</h1>
     <p v-for="(m, i) in messages" :key="i">
       {{ m }}
     </p>
@@ -11,8 +11,8 @@ export default {
   data() {
     return {
       messages: [
-        'Hello, this is the Home-Page',
-        'Welcome to the site!'
+        'We decided to open an online meal delivery service.',
+        'We have it all! From the best appetizers to the most incredible desserts.'
       ]
     }
   }
