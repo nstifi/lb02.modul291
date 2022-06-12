@@ -1,0 +1,47 @@
+<template>
+  <!--
+    Vue Directives: Basic Directives (v-text, v-once, v-html, v-bind, v-if, v-show)
+    -->
+  <div>
+    <h1 v-if="false" v-text="text">Loading...</h1>
+    <h2 v-else-if="true" v-html="html" />
+    <a
+      v-else
+      :href="link.url"
+      :target="link.target"
+      :tabindex="link.tabindex"
+      v-text="link.title"
+    />
+  </div>
+</template>
+
+<script>
+export default {
+  data() {
+    return {
+      // v-text
+      text: 'LB02 Modul 291',
+      // v-html
+      html: '<b>LB02</b></br>Modul 291',
+      // v-bind
+      link: {
+        url: 'https://www.axa.ch',
+        target: '_blank',
+        tabindex: '0',
+        title: 'Hier gibts die besten Versicherungen',
+      },
+    }
+  },
+}
+</script>
+
+<style lang="scss" scoped>
+h2 {
+  margin: 40px 0 0;
+  font-weight: normal;
+}
+a {
+  display: block;
+  margin-top: 40px;
+}
+</style>
