@@ -7,7 +7,7 @@ export default new Vuex.Store({
     nachname: "Laporta",
     verein: "FC Barcelona",
     betrag: "€500 Millionen",
-    jahr: "2 Jahren"
+    jahr: "2023"
   },
   getters: {
     president(state) {
@@ -17,7 +17,7 @@ export default new Vuex.Store({
       return `${state.vorname}.${state.nachname}@barcelona.com`.toLowerCase();
     },
     club(state) {
-      return `${state.verein} für ${state.betrag} in ${state.jahr}`;
+      return `${state.verein} für ${state.betrag} bis ${state.jahr}`;
     },
     amount(state) {
       return `${state.betrag} in ${state.jahr}`;
