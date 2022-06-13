@@ -1,7 +1,7 @@
 import Vue from 'vue'
 
 //Spenden Barca
-import App from './Barcelona.vue'
+import App from './components/Barcelona.vue'
 import store from './store/getters.js'
 
 
