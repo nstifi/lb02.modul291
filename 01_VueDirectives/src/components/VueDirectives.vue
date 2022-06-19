@@ -1,10 +1,7 @@
 <template>
-  <!--
-    Vue Directives: Basic Directives (v-text, v-once, v-html, v-bind, v-if, v-show)
-    -->
   <div>
     <h1 v-if="false" v-text="text">Loading...</h1>
-    <h2 v-else-if="true" v-html="html" />
+    <h2 v-else-if="false" v-html="html" />
     <a
       v-else
       :href="link.url"

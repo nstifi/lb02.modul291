@@ -1,8 +1,4 @@
 <template>
-  <!--
-    Basic router navigation
-    Update navigation by adding two router links for Home and About
-   -->
   <div id="app">
     <p id="title"><b>FOOD DELIVERY</b></br>leicht gemacht</p>
     <div id="nav">

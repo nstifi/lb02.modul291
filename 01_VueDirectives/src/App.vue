@@ -1,8 +1,4 @@
 <template>
-  <!--
-  Important: add always a HTML-root element (i.e. div)
-  if you are using more than one component
-  -->
   <div>
     <MyComponent />
   </div>

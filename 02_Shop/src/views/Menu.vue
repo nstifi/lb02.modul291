@@ -22,7 +22,7 @@
 export default {
   data() {
     return {
-      // Shared
+      // Data
       classList: [
         'Ceasar Salad', 'Green Salad', 'Mixed Salad', 'Tomato Salad',
         'Risotto Mare e Monti', 'Risotto Frutti di Mare',
