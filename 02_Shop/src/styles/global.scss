@@ -1,6 +1,10 @@
 body {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'arial', Helvetica, Arial, sans-serif;
     margin: 30px;
+    background-color: black;
+    width: 50%;
+    margin-left: 25%;
+
     //background-image: url('assets/bg.jpg');
     //background-size: cover;
 }
@@ -10,24 +14,12 @@ h1{
 }
 
 #app {
-    font-family: 'Avenir', Helvetica, Arial, sans-serif;
+    font-family: 'Arial', Helvetica, Arial, sans-serif;
     -webkit-font-smoothing: antialiased;
     -moz-osx-font-smoothing: grayscale;
     text-align: center;
-    color: #2c3e50;
-}
-
-#logo{
-    horiz-align: left;
-}
-
-.logo {
-    display: inline-block;
-    width: 100%;
-    max-width: 13vw;
-    padding-right: 5vw;
-    margin-left: 5vw;
-    //float: left;
+    color: white;
+    background-color: black;
 }
 
 #nav {
@@ -35,15 +27,35 @@ h1{
 }
 
 #nav a {
-    font-weight: bold;
-    color: black;
+    font-weight: light;
+    color: lightgray;
+    text-decoration: none;
+}
+
+#nav a:hover{
+    color: white;
 }
 
 #nav a.router-link-exact-active {
-    color: #42b983;
+    color: #9ec6f1;
+    text-underline: none;
+}
+
+#nav a.router-link-exact-active:hover {
+    color: #bdd0ec;
 }
 
 #title {
     font-size: 40px;
     margin-bottom: 0px;
+}
+
+a{
+    text-decoration: none;
+    color: lightslategray;
+}
+
+a:hover{
+    text-decoration: none;
+    color: lightblue;
 }

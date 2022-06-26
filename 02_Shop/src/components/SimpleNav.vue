@@ -25,7 +25,7 @@ export default {
 </script>
 
 <style lang="scss">
-$color-green: #4fc08d;
+$color-violet: #591a9e;
 $color-grey: #2c3e50;
 
 .container {
@@ -56,7 +56,7 @@ button {
   border-radius: 10px;
   border: none;
   background: $color-grey;
-  color: white;
+  color: #ffffff;
   white-space: nowrap;
 
   + button {
@@ -67,7 +67,6 @@ button {
 .button--navi {
   display: block;
   margin: 0 auto;
-  background: darkblue;
 }
 
 </style>

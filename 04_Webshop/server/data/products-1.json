@@ -1,7 +1,9 @@
 [
-  {"name": "Schuhe", "price": 150.00},
-  {"name": "Pullover", "price": 82.00},
-  {"name": "Sweatshirt", "price": 73.00},
-  {"name": "Jacke", "price": 103.50 },
-  {"name": "Jeans", "price": 87.00}
+  {"name": "Sony a7II", "price": 1500.00},
+  {"name": "Sony a7sIII", "price": 4000.00},
+  {"name": "Sony 16-35mm f/2.8", "price": 2500.00},
+  {"name": "Sigma 85mm f/1.4", "price": 800.00 },
+  {"name": "Sony 70-200mm f/4.0", "price": 1250.00},
+  {"name": "Tamron 28-75mm f/2.8", "price": 750.00},
+  {"name": "Sigma 105mm f/1.4", "price": 1300.00}
 ]

@@ -1,7 +1,8 @@
 <template>
   <div class="container">
-    <h2>Unsere Spezialitäten</h2>
-    <h3>Bestellung: (Artikel: {{ totalItems }}) {{ formatPrize("CHF",totalCost) }}</h3>
+    <h2>Unsere neusten Kameras</h2>
+    <h3>Dein Warenkorb: ({{ totalItems }}) Artikel im Wert von
+      {{ formatPrize("CHF",totalCost) }}</h3>
     <div class="even-columns" v-for="item in products" :key="item">
       <div class="col">{{ item.title }}</div>
       <div class="col"><a href="#" @click="addToCart(item.prize)">Add {{ formatPrize(item.currency, item.prize) }}</a></div>
@@ -17,9 +18,10 @@ export default {
       totalItems: 0,
       totalCost: 0,
       products: [
-        {title:"Caesar Salad", currency: "CHF", prize: 13.20},
-        {title:"Risotto Mare e Monti", currency: "CHF", prize: 26.80},
-        {title:"Tiramisù", currency: "CHF", prize: 15.10},
+        {title:"Sony a7 IV", currency: "CHF", prize: 2699.90},
+        {title:"Sony a7r IV", currency: "CHF", prize: 3233.00},
+        {title:"Sony a7s III", currency: "CHF", prize: 4045.15},
+        {title:"Sony a1", currency: "CHF", prize: 7019.90},
       ],
     }
   },

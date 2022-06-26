@@ -21,10 +21,10 @@ export const routes = [
     component: () =>
         import('../views/About.vue')
   },{
-    path: '/menu',
-    name: 'menu',
+    path: '/products',
+    name: 'products',
     component: () =>
-        import('../views/Menu.vue'),
+        import('../views/Products.vue'),
     /* Passing the Content */
     props: true
   },{

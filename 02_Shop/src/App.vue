@@ -1,12 +1,13 @@
 <template>
   <div id="app">
-    <p id="title"><b>FOOD DELIVERY</b></br>leicht gemacht</p>
     <div id="nav">
       <router-link to="/home">Home</router-link> |
-      <router-link to="/menu">Menu</router-link> |
+      <router-link to="/products">Products</router-link> |
       <router-link to="/order">Order</router-link> |
       <router-link to="/about">About</router-link>
     </div>
+    <br />
+    <br />
     <router-view/>
   </div>
 </template>

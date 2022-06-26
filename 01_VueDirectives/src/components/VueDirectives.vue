@@ -19,13 +19,13 @@ export default {
       // v-text
       text: 'LB02 Modul 291',
       // v-html
-      html: '<b>LB02</b></br>Modul 291',
+      html: 'LB02 Modul 291',
       // v-bind
       link: {
-        url: 'https://www.axa.ch',
+        url: 'https://www.migros-engagement.ch',
         target: '_blank',
         tabindex: '0',
-        title: 'Hier gibts die besten Versicherungen',
+        title: 'Das Engagement der Migros',
       },
     }
   },
@@ -36,9 +36,12 @@ export default {
 h2 {
   margin: 40px 0 0;
   font-weight: normal;
+  color: white;
 }
+
 a {
   display: block;
   margin-top: 40px;
+  color: white;
 }
 </style>

@@ -1,7 +1,7 @@
 <template>
   <div>
     <h2>Checkout</h2>
-    Your total is CHF {{ cartTotal.toFixed(2) }}.
+    Dein Warenkorb beträgt CHF {{ cartTotal.toFixed(2) }}.
     <b-button variant="primary" v-show="cartTotal > 0" @click="checkout">Checkout</b-button>
   </div>
 </template>
@@ -14,7 +14,7 @@ export default {
   computed: mapGetters(['cartTotal']),
   methods: {
     checkout() {
-      alert('Checkout processed!');
+      alert('Einkauf erfolgreich, deine Ware wird innerhalb von 5 Werktagen bei dir ankommen.');
     }
   }
 }

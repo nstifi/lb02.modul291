@@ -1,12 +1,12 @@
 <template>
   <div>
-    <h2>Cart</h2>
+    <h2>Einkaufskorb</h2>
     <table>
       <thead>
       <tr>
         <th>Name</th>
         <td>&nbsp;&nbsp;&nbsp;</td>
-        <th>Quantity</th>
+        <th>Anzahl</th>
       </tr>
       </thead>
       <tbody>

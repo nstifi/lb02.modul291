@@ -1,12 +1,13 @@
 <template>
   <div>
-      <h2>Products</h2>
+    <h1>Ausverkauf!!</h1>
+      <h2>Produkte</h2>
       <table>
         <thead>
         <tr>
           <th>Name</th>
           <td>&nbsp;&nbsp;&nbsp;</td>
-          <th>Price</th>
+          <th>Preis</th>
           <th>&nbsp;</th>
         </tr>
         </thead>

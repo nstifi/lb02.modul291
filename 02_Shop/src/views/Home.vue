@@ -1,6 +1,7 @@
 <template>
   <div>
-    <h1>HELLO!</h1>
+    <h2>Willkommen</h2>
+<a href="https://www.instagram.com/sonyalpha/" target="_blank" style="text-decoration: none"  >Instagram</a>
     <p v-for="(m, i) in messages" :key="i">
       {{ m }}
     </p>
@@ -11,8 +12,7 @@ export default {
   data() {
     return {
       messages: [
-        'Welcome to my site!',
-        'This will be my last IT-Project'
+        'Schaue bei unserem Instagram Account vorbei und erfahre mehr!',
       ]
     }
   }
